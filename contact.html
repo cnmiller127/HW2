@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
     
-    <div class="container-fluid"> 
+    <div class="container"> 
 
-       <header class="row d-flex">
-            <name class="col-12 col-md-6 col-lg-4 col-xl-4 text-center justify-content-sm-start">
+        <header class="row">
+            <name class="col-lg-3 col-md-4 col-sm-12 pl-xl-5 pl-pl-4 pl-md-3 text-center">
                 <h3 class ="p-3 mb-2 bg-info text-white">Christian Miller</h3>
             </name>
 
-            <nav class="navbar navbar-expand navbar-light col-12 col-md-6 col-lg-8 col-xl-8  d-flex-inline justify-content-md-end justify-content-center">
-                  <div class="navbar-nav ">
+            <nav class="navbar navbar-expand navbar-light col-lg-9 col-md-8 col-sm-12 d-flex justify-content-md-end justify-content-center">
+                  <div class="navbar-nav">
                       
                     <a class="nav-item nav-link" href="index.html">About</a>
                     <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -26,21 +27,32 @@
                   </div>
               </nav>
         </header>
+    
+       
 
        <main class="row bg-light">
 
-                <form class="col-xl-6 col-lg-8 col-12 bg-white m-5">
-                    <h2 class ="p-3 mb-2 bg-white text-info">Contact</h2>  
+                <form class="col-xl-6 col-lg-8 col-12 bg-white m-xl-5 m-lg-4 m-md-3 m-sm-2 m-0 p-3">
+                    
+                    
+                    <h2 class ="bg-white text-info">Contact</h2> 
+                    
+                    
                     <div class="form-group">
-                    <label for="name">Name</label>
-                        <input type="email" class="form-control" id="name" placeholder="example@gmail.com" aria-describedby="Name">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="John Smith" aria-describedby="Name">
                     </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">E-mail</label>
-                    <textarea class="form-control" aria-label="withtextarea"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form> 
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="John Smith" aria-describedby="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" aria-label="withtextarea"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary bg-info text-white">Submit</button>
+                </form>
 
 
        </main>
