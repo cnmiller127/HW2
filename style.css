@@ -42,7 +42,7 @@ footer{
   
 }
 
-.img-fluid{
+.img-portfolio{
   display: block;
   width:100%;
   height:auto;
@@ -66,3 +66,36 @@ footer{
 .spacer{
   height:8%;
 }
+
+@media screen and (min-width: 992px){
+ 
+  .img-index{
+     width:33.33%;
+     height: auto;
+
+  }
+} 
+
+  
+
+
+@media screen and (max-width: 992px){
+ 
+   .img-index{
+      width:50%;
+      height: auto;
+
+   }
+} 
+
+   
+
+@media screen and (max-width: 768px){
+ 
+    .img-index{
+      width:100%;
+      height: auto; 
+    }
+
+}
+
